@@ -37,7 +37,7 @@ public class InsereFinalFilaPrioridade implements FilaPrioridade {
 		// retornando o elemento removido
 		return maiorPrioridade.getElemento();
 	}
-	 public static void main(String[] args) {
+	public static void main(String[] args) {
 		FilaPrioridade insereFinal = new InsereFinalFilaPrioridade(5);
 
 		insereFinal.add("a", 1);
@@ -53,5 +53,5 @@ public class InsereFinalFilaPrioridade implements FilaPrioridade {
 		System.out.println(insereFinal.removeNext());
 		System.out.println(insereFinal.removeNext());
 		System.out.println(insereFinal.removeNext());
-	 }
+	}
 }
