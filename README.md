@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Eyshila Buriti de Araujo Azevedo
+* Email (@ccc): eyshila.buriti.araujo.azevedo@ccc.ufcg.edu.br
+* Matrícula: 123110472
 
 # Roteiro: Fila de Prioridade
 
