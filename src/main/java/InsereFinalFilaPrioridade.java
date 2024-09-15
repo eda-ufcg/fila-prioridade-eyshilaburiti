@@ -22,7 +22,11 @@ public class InsereFinalFilaPrioridade implements FilaPrioridade {
 	// buscar pelo elemento de maior prioridade na fila.
 	public String removeNext() {
 
-		Pair maiorPrioridade = new Pair("", 0);
+		if(this.fila.isEmpty()){
+			return "Vazia";
+		}
+
+		Pair maiorPrioridade = this.fila.get(0);
 
 		// procurando o de maior prioridade O(n)
 		for(Pair pair : fila){
